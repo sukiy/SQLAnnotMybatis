@@ -1,0 +1,54 @@
+package mybatis.entity;
+
+/**
+ * Created by Sukiy on 2018/1/29.
+ */
+public class TbStu {
+
+    private int sno;
+    private String sname;
+    private int sage;
+    private String sex;
+
+    public TbStu() {
+    }
+
+    public TbStu(int sno, String sname, int sage, String sex) {
+        this.sno = sno;
+        this.sname = sname;
+        this.sage = sage;
+        this.sex = sex;
+    }
+
+    public int getSno() {
+        return sno;
+    }
+
+    public void setSno(int sno) {
+        this.sno = sno;
+    }
+
+    public String getSname() {
+        return sname;
+    }
+
+    public void setSname(String sname) {
+        this.sname = sname;
+    }
+
+    public int getSage() {
+        return sage;
+    }
+
+    public void setSage(int sage) {
+        this.sage = sage;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+}
