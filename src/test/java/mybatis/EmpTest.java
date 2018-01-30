@@ -32,5 +32,6 @@ public class EmpTest {
         emp.setDept(dept);
         emp.setEname("oooo");
         empDao.updateEmp(emp);
+
     }
 }
